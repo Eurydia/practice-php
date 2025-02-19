@@ -1,6 +1,7 @@
 <?php
 
-$DEFAULT_NAME  = "Guest";
+$DEFAULT_NAME = "Guest";
+
 
 $name = $_GET["name"] ?? $DEFAULT_NAME;
 ?>
